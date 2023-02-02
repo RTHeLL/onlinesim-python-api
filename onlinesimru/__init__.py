@@ -8,6 +8,6 @@ from .driver import Driver
 from ._version import __version__
 
 
-__author__ = "s00d"
+__author__ = "s00d (remake by Kinder)"
 __version__ = __version__
-__contact__ = "https://github.com/s00d"
+__contact__ = "https://github.com/s00d, https://github.com/RTHeLL"

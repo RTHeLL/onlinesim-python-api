@@ -3,8 +3,8 @@ from setuptools import setup
 import re
 
 """
-@author: s00d
-@contact: https://github.com/s00d
+@author: s00d (remake by Kinder)
+@contact: https://github.com/s00d, https://github.com/RTHeLL
 @license Apache License, Version 2.0, see LICENSE file
 Copyright (C) 2020
 """
@@ -43,12 +43,12 @@ setup(
     long_description=long_description(),
     long_description_content_type="text/markdown",
     description="Wrapper for automatic reception of SMS-messages by onlinesim.ru",
-    author="s00d",
+    author="s00d (remake by Kinder)",
     license="Apache License, Version 2.0, see LICENSE file",
     keywords="sms, revice, onlinesim-ru, autoreg",
     author_email="suppport@onlinesim.ru",
-    url="https://github.com/s00d/onlinesim-python-api",
-    download_url="https://github.com/s00d/onlinesim-python-api/archive/master.zip",
+    url="https://github.com/RTHeLL/onlinesim-python-api",
+    download_url="https://github.com/RTHeLL/onlinesim-python-api/archive/master.zip",
     packages=["onlinesimru"],
     install_requires=requirements(),
     setup_requires=['wheel'],
